@@ -4,11 +4,9 @@ title: Posts
 permalink: /posts/
 ---
 
-<div class="home">
+<div class="page">
   {%- if page.title -%}
   {%- endif -%}
-
-  {{ content }}
 
   {%- if site.posts.size > 0 -%}
     <ul class="post-list">
